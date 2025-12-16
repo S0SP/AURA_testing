@@ -1,9 +1,11 @@
 "use client"
 
 import { useRef, useMemo, useState } from "react"
-import { Canvas, useFrame } from "@react-three/fiber"
+import { Canvas, useFrame, useLoader } from "@react-three/fiber"
 import { Sphere, Stars, Html, OrbitControls, Line } from "@react-three/drei"
 import * as THREE from "three"
+import { TextureLoader } from "three"
+import { useTheme } from "next-themes"
 
 interface MisinfoPoint {
   id: string
@@ -249,14 +251,25 @@ function Globe({
   data,
   selectedPoint,
   onSelectPoint,
+  isDark,
 }: {
   data: MisinfoPoint[]
   selectedPoint: MisinfoPoint | null
   onSelectPoint: (point: MisinfoPoint | null) => void
+  isDark: boolean
 }) {
   const globeRef = useRef<THREE.Group>(null!)
 
   const globeRadius = 2
+
+  // Load Earth texture
+  const earthTexture = useLoader(
+    TextureLoader,
+    "https://unpkg.com/three-globe@2.31.0/example/img/earth-blue-marble.jpg"
+  )
+
+  // Theme-aware colors
+  const atmosphereColor = isDark ? "#f97316" : "#3b82f6"
 
   // Auto-rotate when no selection
   useFrame(() => {
@@ -267,24 +280,30 @@ function Globe({
 
   return (
     <group ref={globeRef}>
-      {/* Earth base - dark sphere */}
+      {/* Earth base with world map texture */}
       <Sphere args={[globeRadius, 64, 64]} onClick={() => onSelectPoint(null)}>
-        <meshStandardMaterial color="#0f0f14" roughness={0.9} metalness={0.1} />
+        <meshStandardMaterial
+          map={earthTexture}
+          roughness={isDark ? 0.5 : 0.3}
+          metalness={0.1}
+          emissive={isDark ? "#000000" : "#1e3a5f"}
+          emissiveIntensity={isDark ? 0 : 0.15}
+        />
       </Sphere>
 
       {/* Latitude/longitude grid */}
       <Sphere args={[globeRadius + 0.01, 36, 36]}>
-        <meshBasicMaterial color="#f97316" wireframe transparent opacity={0.06} />
+        <meshBasicMaterial color={atmosphereColor} wireframe transparent opacity={isDark ? 0.06 : 0.1} />
       </Sphere>
 
       {/* Inner atmosphere glow */}
       <Sphere args={[globeRadius + 0.1, 32, 32]}>
-        <meshBasicMaterial color="#f97316" transparent opacity={0.03} side={THREE.BackSide} />
+        <meshBasicMaterial color={atmosphereColor} transparent opacity={isDark ? 0.04 : 0.06} side={THREE.BackSide} />
       </Sphere>
 
       {/* Outer atmosphere */}
       <Sphere args={[globeRadius + 0.2, 32, 32]}>
-        <meshBasicMaterial color="#f97316" transparent opacity={0.015} side={THREE.BackSide} />
+        <meshBasicMaterial color={atmosphereColor} transparent opacity={isDark ? 0.02 : 0.04} side={THREE.BackSide} />
       </Sphere>
 
       {continentOutlines.map((outline, i) => (
@@ -354,22 +373,25 @@ const particleConfigs = Array.from({ length: 50 }, (_, i) => ({
   color: i % 3 === 0 ? "#f97316" : i % 3 === 1 ? "#22c55e" : "#f59e0b",
 }))
 
-function Scene({ data, selectedPoint, onSelectPoint }: TransparencyGlobeProps) {
+function Scene({ data, selectedPoint, onSelectPoint, isDark }: TransparencyGlobeProps & { isDark: boolean }) {
+  const lightColor = isDark ? "#f97316" : "#3b82f6"
+  const accentColor = isDark ? "#22c55e" : "#8b5cf6"
+
   return (
     <>
-      <ambientLight intensity={0.4} />
-      <pointLight position={[10, 10, 10]} intensity={1.2} color="#f97316" />
-      <pointLight position={[-10, -10, -10]} intensity={0.5} color="#22c55e" />
-      <pointLight position={[0, 10, -10]} intensity={0.3} color="#f59e0b" />
+      <ambientLight intensity={isDark ? 0.5 : 0.9} />
+      <pointLight position={[10, 10, 10]} intensity={isDark ? 1.2 : 1.5} color={lightColor} />
+      <pointLight position={[-10, -10, -10]} intensity={isDark ? 0.5 : 0.8} color={accentColor} />
+      <pointLight position={[0, 10, -10]} intensity={isDark ? 0.3 : 0.5} color="#f59e0b" />
 
-      <Globe data={data} selectedPoint={selectedPoint} onSelectPoint={onSelectPoint} />
+      <Globe data={data} selectedPoint={selectedPoint} onSelectPoint={onSelectPoint} isDark={isDark} />
 
       {/* Floating particles */}
       {particleConfigs.map((config) => (
         <FloatingParticle key={config.id} {...config} />
       ))}
 
-      <Stars radius={100} depth={50} count={2000} factor={4} saturation={0} fade speed={0.3} />
+      {isDark && <Stars radius={100} depth={50} count={2000} factor={4} saturation={0} fade speed={0.3} />}
 
       <OrbitControls
         enablePan={false}
@@ -384,10 +406,13 @@ function Scene({ data, selectedPoint, onSelectPoint }: TransparencyGlobeProps) {
 }
 
 export function TransparencyGlobe({ data, selectedPoint, onSelectPoint }: TransparencyGlobeProps) {
+  const { theme, resolvedTheme } = useTheme()
+  const isDark = resolvedTheme === "dark" || theme === "dark"
+
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full bg-background">
       <Canvas camera={{ position: [0, 0, 6], fov: 45 }} dpr={[1, 2]}>
-        <Scene data={data} selectedPoint={selectedPoint} onSelectPoint={onSelectPoint} />
+        <Scene data={data} selectedPoint={selectedPoint} onSelectPoint={onSelectPoint} isDark={isDark} />
       </Canvas>
     </div>
   )

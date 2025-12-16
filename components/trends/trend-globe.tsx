@@ -1,9 +1,11 @@
 "use client"
 
 import { useRef, useMemo } from "react"
-import { Canvas, useFrame } from "@react-three/fiber"
-import { Sphere, Float, Stars, Html } from "@react-three/drei"
+import { Canvas, useFrame, useLoader } from "@react-three/fiber"
+import { Sphere, Float, Stars, Html, OrbitControls } from "@react-three/drei"
 import * as THREE from "three"
+import { TextureLoader } from "three"
+import { useTheme } from "next-themes"
 import type { Hotspot, Location } from "./trend-explorer"
 
 interface TrendGlobeProps {
@@ -12,25 +14,43 @@ interface TrendGlobeProps {
   onLocationSelect: (location: Location) => void
 }
 
-function Globe() {
+function Globe({ isDark }: { isDark: boolean }) {
   const meshRef = useRef<THREE.Mesh>(null)
+
+  // Load Earth texture
+  const earthTexture = useLoader(
+    TextureLoader,
+    "https://unpkg.com/three-globe@2.31.0/example/img/earth-blue-marble.jpg"
+  )
 
   useFrame(() => {
     if (meshRef.current) {
-      meshRef.current.rotation.y += 0.0005
+      meshRef.current.rotation.y += 0.002
     }
   })
 
+  // Theme-aware colors
+  const atmosphereColor = isDark ? "#f97316" : "#3b82f6"
+
   return (
     <group>
+      {/* Main Earth sphere with texture */}
       <Sphere ref={meshRef} args={[2, 64, 64]}>
-        <meshStandardMaterial color="#1a1a1f" roughness={0.8} metalness={0.2} />
+        <meshStandardMaterial
+          map={earthTexture}
+          roughness={isDark ? 0.5 : 0.3}
+          metalness={0.1}
+          emissive={isDark ? "#000000" : "#1e3a5f"}
+          emissiveIntensity={isDark ? 0 : 0.15}
+        />
       </Sphere>
+      {/* Glow wireframe overlay */}
       <Sphere args={[2.02, 32, 32]}>
-        <meshBasicMaterial color="#f97316" wireframe transparent opacity={0.08} />
+        <meshBasicMaterial color={atmosphereColor} wireframe transparent opacity={isDark ? 0.06 : 0.1} />
       </Sphere>
+      {/* Atmospheric glow */}
       <Sphere args={[2.1, 32, 32]}>
-        <meshBasicMaterial color="#f97316" transparent opacity={0.03} side={THREE.BackSide} />
+        <meshBasicMaterial color={atmosphereColor} transparent opacity={isDark ? 0.05 : 0.08} side={THREE.BackSide} />
       </Sphere>
     </group>
   )
@@ -105,19 +125,24 @@ function Scene({
   hotspots,
   selectedLocation,
   onLocationSelect,
+  isDark,
 }: {
   hotspots: Hotspot[]
   selectedLocation: Location | null
   onLocationSelect: (location: Location) => void
+  isDark: boolean
 }) {
+  const lightColor = isDark ? "#f97316" : "#3b82f6"
+  const accentColor = isDark ? "#22c55e" : "#8b5cf6"
+
   return (
     <>
-      <ambientLight intensity={0.3} />
-      <pointLight position={[10, 10, 10]} intensity={1} color="#f97316" />
-      <pointLight position={[-10, -10, -10]} intensity={0.5} color="#22c55e" />
+      <ambientLight intensity={isDark ? 0.4 : 0.8} />
+      <pointLight position={[10, 10, 10]} intensity={isDark ? 1.2 : 1.5} color={lightColor} />
+      <pointLight position={[-10, -10, -10]} intensity={isDark ? 0.6 : 0.8} color={accentColor} />
 
       <Float speed={1} rotationIntensity={0} floatIntensity={0.2}>
-        <Globe />
+        <Globe isDark={isDark} />
         {hotspots.map((hotspot) => (
           <HotspotMarker
             key={hotspot.id}
@@ -128,16 +153,28 @@ function Scene({
         ))}
       </Float>
 
-      <Stars radius={100} depth={50} count={1000} factor={4} saturation={0} fade speed={1} />
+      {isDark && <Stars radius={100} depth={50} count={1000} factor={4} saturation={0} fade speed={1} />}
+
+      <OrbitControls
+        enablePan={false}
+        enableZoom={true}
+        minDistance={3}
+        maxDistance={10}
+        autoRotate
+        autoRotateSpeed={0.5}
+      />
     </>
   )
 }
 
 export function TrendGlobe({ hotspots, selectedLocation, onLocationSelect }: TrendGlobeProps) {
+  const { theme, resolvedTheme } = useTheme()
+  const isDark = resolvedTheme === "dark" || theme === "dark"
+
   return (
     <div className="w-full h-full bg-background">
       <Canvas camera={{ position: [0, 0, 5], fov: 50 }} dpr={[1, 2]}>
-        <Scene hotspots={hotspots} selectedLocation={selectedLocation} onLocationSelect={onLocationSelect} />
+        <Scene hotspots={hotspots} selectedLocation={selectedLocation} onLocationSelect={onLocationSelect} isDark={isDark} />
       </Canvas>
     </div>
   )
