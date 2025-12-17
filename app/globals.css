@@ -208,6 +208,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -215,11 +216,13 @@
 
 /* Custom Animations */
 @keyframes pulse-glow {
+
   0%,
   100% {
     opacity: 1;
     box-shadow: 0 0 20px var(--primary);
   }
+
   50% {
     opacity: 0.8;
     box-shadow: 0 0 40px var(--primary);
@@ -227,10 +230,12 @@
 }
 
 @keyframes float {
+
   0%,
   100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-10px);
   }
@@ -240,6 +245,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -249,6 +255,7 @@
   0% {
     background-position: -200% 0;
   }
+
   100% {
     background-position: 200% 0;
   }
@@ -260,6 +267,7 @@
     opacity: 0;
     transform: translateY(10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -271,6 +279,7 @@
     opacity: 0;
     transform: scale(0.95);
   }
+
   to {
     opacity: 1;
     transform: scale(1);
@@ -282,6 +291,7 @@
     opacity: 0;
     transform: translateX(20px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -289,16 +299,19 @@
 }
 
 @keyframes bounce-subtle {
+
   0%,
   100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-5px);
   }
 }
 
 @keyframes ping-slow {
+
   75%,
   100% {
     transform: scale(1.5);
@@ -346,8 +359,7 @@
 
 /* Globe Styles */
 .globe-glow {
-  box-shadow: 0 0 60px var(--aura-coral-muted), 0 0 120px var(--aura-coral-muted), inset 0 0 60px
-    var(--aura-coral-muted);
+  box-shadow: 0 0 60px var(--aura-coral-muted), 0 0 120px var(--aura-coral-muted), inset 0 0 60px var(--aura-coral-muted);
 }
 
 /* Gradient Text */

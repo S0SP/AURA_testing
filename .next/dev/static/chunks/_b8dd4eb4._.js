@@ -2411,32 +2411,19 @@ function HeroSection() {
                                             className: "font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "block",
-                                                    style: {
-                                                        color: '#ff7a6b'
-                                                    },
-                                                    children: displayText.substring(0, 24)
+                                                    className: "text-gradient",
+                                                    children: displayText
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/landing/hero-section.tsx",
                                                     lineNumber: 157,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "block text-[#ff7a6b] dark:text-white",
-                                                    children: [
-                                                        displayText.substring(24),
-                                                        displayText.length === fullText.length && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "animate-pulse",
-                                                            children: "|"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/landing/hero-section.tsx",
-                                                            lineNumber: 162,
-                                                            columnNumber: 62
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
+                                                    className: "animate-pulse",
+                                                    children: "|"
+                                                }, void 0, false, {
                                                     fileName: "[project]/components/landing/hero-section.tsx",
-                                                    lineNumber: 160,
+                                                    lineNumber: 158,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
@@ -2450,7 +2437,7 @@ function HeroSection() {
                                             children: "AURA uses autonomous AI agents to detect, verify, and counter misinformation within minutes — protecting citizens, journalists, and institutions."
                                         }, void 0, false, {
                                             fileName: "[project]/components/landing/hero-section.tsx",
-                                            lineNumber: 165,
+                                            lineNumber: 160,
                                             columnNumber: 15
                                         }, this)
                                     ]
@@ -2472,19 +2459,19 @@ function HeroSection() {
                                                         className: "h-5 w-5 mr-2 group-hover:scale-110 transition-transform"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/landing/hero-section.tsx",
-                                                        lineNumber: 175,
+                                                        lineNumber: 170,
                                                         columnNumber: 19
                                                     }, this),
                                                     "Check a Claim"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/landing/hero-section.tsx",
-                                                lineNumber: 174,
+                                                lineNumber: 169,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/landing/hero-section.tsx",
-                                            lineNumber: 173,
+                                            lineNumber: 168,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -2498,25 +2485,25 @@ function HeroSection() {
                                                         className: "h-5 w-5 mr-2 group-hover:rotate-12 transition-transform"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/landing/hero-section.tsx",
-                                                        lineNumber: 181,
+                                                        lineNumber: 176,
                                                         columnNumber: 19
                                                     }, this),
                                                     "Explore Trends"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/landing/hero-section.tsx",
-                                                lineNumber: 180,
+                                                lineNumber: 175,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/landing/hero-section.tsx",
-                                            lineNumber: 179,
+                                            lineNumber: 174,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/landing/hero-section.tsx",
-                                    lineNumber: 172,
+                                    lineNumber: 167,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2531,7 +2518,7 @@ function HeroSection() {
                                                     className: "h-5 w-5 mx-auto mb-2 text-primary"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/landing/hero-section.tsx",
-                                                    lineNumber: 195,
+                                                    lineNumber: 190,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2539,7 +2526,7 @@ function HeroSection() {
                                                     children: stat.value
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/landing/hero-section.tsx",
-                                                    lineNumber: 196,
+                                                    lineNumber: 191,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2547,18 +2534,18 @@ function HeroSection() {
                                                     children: stat.label
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/landing/hero-section.tsx",
-                                                    lineNumber: 197,
+                                                    lineNumber: 192,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, stat.label, true, {
                                             fileName: "[project]/components/landing/hero-section.tsx",
-                                            lineNumber: 190,
+                                            lineNumber: 185,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/landing/hero-section.tsx",
-                                    lineNumber: 188,
+                                    lineNumber: 183,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -2571,12 +2558,12 @@ function HeroSection() {
                             className: "relative h-[500px] lg:h-[600px]",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$landing$2f$globe$2d$3d$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Globe3D"], {}, void 0, false, {
                                 fileName: "[project]/components/landing/hero-section.tsx",
-                                lineNumber: 205,
+                                lineNumber: 200,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/landing/hero-section.tsx",
-                            lineNumber: 204,
+                            lineNumber: 199,
                             columnNumber: 11
                         }, this)
                     ]
@@ -2602,6 +2589,700 @@ _c1 = HeroSection;
 var _c, _c1;
 __turbopack_context__.k.register(_c, "ParticleBackground");
 __turbopack_context__.k.register(_c1, "HeroSection");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/components/landing/backend-modules-section.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "BackendModulesSection",
+    ()=>BackendModulesSection
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$use$2d$in$2d$view$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/utils/use-in-view.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$eye$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Eye$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/eye.js [app-client] (ecmascript) <export default as Eye>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$brain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Brain$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/brain.js [app-client] (ecmascript) <export default as Brain>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$database$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Database$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/database.js [app-client] (ecmascript) <export default as Database>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageCircle$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/message-circle.js [app-client] (ecmascript) <export default as MessageCircle>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$cpu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Cpu$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/cpu.js [app-client] (ecmascript) <export default as Cpu>");
+;
+var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.signature();
+"use client";
+;
+;
+;
+// Tangle/String Particle Background - creates connected nodes like in the reference image
+function TangleParticleBackground() {
+    _s();
+    const canvasRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "TangleParticleBackground.useEffect": ()=>{
+            const canvas = canvasRef.current;
+            if (!canvas) return;
+            const ctx = canvas.getContext("2d");
+            if (!ctx) return;
+            let animationFrameId;
+            let particles = [];
+            const resize = {
+                "TangleParticleBackground.useEffect.resize": ()=>{
+                    canvas.width = canvas.offsetWidth;
+                    canvas.height = canvas.offsetHeight;
+                    initParticles();
+                }
+            }["TangleParticleBackground.useEffect.resize"];
+            const initParticles = {
+                "TangleParticleBackground.useEffect.initParticles": ()=>{
+                    particles = [];
+                    const particleCount = Math.floor(canvas.width * canvas.height / 20000);
+                    for(let i = 0; i < particleCount; i++){
+                        particles.push({
+                            x: Math.random() * canvas.width,
+                            y: Math.random() * canvas.height,
+                            vx: (Math.random() - 0.5) * 0.3,
+                            vy: (Math.random() - 0.5) * 0.3,
+                            size: Math.random() * 2 + 1
+                        });
+                    }
+                }
+            }["TangleParticleBackground.useEffect.initParticles"];
+            const animate = {
+                "TangleParticleBackground.useEffect.animate": ()=>{
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    // Update particle positions
+                    particles.forEach({
+                        "TangleParticleBackground.useEffect.animate": (particle)=>{
+                            particle.x += particle.vx;
+                            particle.y += particle.vy;
+                            // Bounce off edges
+                            if (particle.x < 0 || particle.x > canvas.width) particle.vx *= -1;
+                            if (particle.y < 0 || particle.y > canvas.height) particle.vy *= -1;
+                            // Keep in bounds
+                            particle.x = Math.max(0, Math.min(canvas.width, particle.x));
+                            particle.y = Math.max(0, Math.min(canvas.height, particle.y));
+                        }
+                    }["TangleParticleBackground.useEffect.animate"]);
+                    // Draw connections (tangle effect)
+                    const maxDistance = 150;
+                    ctx.strokeStyle = "rgba(249, 115, 22, 0.15)"; // Orange
+                    ctx.lineWidth = 0.5;
+                    for(let i = 0; i < particles.length; i++){
+                        for(let j = i + 1; j < particles.length; j++){
+                            const dx = particles[i].x - particles[j].x;
+                            const dy = particles[i].y - particles[j].y;
+                            const distance = Math.sqrt(dx * dx + dy * dy);
+                            if (distance < maxDistance) {
+                                const opacity = 1 - distance / maxDistance;
+                                ctx.strokeStyle = `rgba(249, 115, 22, ${opacity * 0.2})`;
+                                ctx.beginPath();
+                                ctx.moveTo(particles[i].x, particles[i].y);
+                                ctx.lineTo(particles[j].x, particles[j].y);
+                                ctx.stroke();
+                            }
+                        }
+                    }
+                    // Draw particles as small dots
+                    particles.forEach({
+                        "TangleParticleBackground.useEffect.animate": (particle)=>{
+                            ctx.beginPath();
+                            ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2);
+                            ctx.fillStyle = "rgba(249, 115, 22, 0.4)";
+                            ctx.fill();
+                        }
+                    }["TangleParticleBackground.useEffect.animate"]);
+                    animationFrameId = requestAnimationFrame(animate);
+                }
+            }["TangleParticleBackground.useEffect.animate"];
+            resize();
+            window.addEventListener("resize", resize);
+            animate();
+            return ({
+                "TangleParticleBackground.useEffect": ()=>{
+                    window.removeEventListener("resize", resize);
+                    cancelAnimationFrame(animationFrameId);
+                }
+            })["TangleParticleBackground.useEffect"];
+        }
+    }["TangleParticleBackground.useEffect"], []);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("canvas", {
+        ref: canvasRef,
+        className: "absolute inset-0 w-full h-full pointer-events-none",
+        style: {
+            opacity: 0.8
+        }
+    }, void 0, false, {
+        fileName: "[project]/components/landing/backend-modules-section.tsx",
+        lineNumber: 108,
+        columnNumber: 9
+    }, this);
+}
+_s(TangleParticleBackground, "UJgi7ynoup7eqypjnwyX/s32POg=");
+_c = TangleParticleBackground;
+// Core modules configuration
+const modules = [
+    {
+        id: "eye",
+        title: "Eye",
+        subtitle: "Data Collection",
+        description: "Monitors social media, news, and messaging platforms in real-time",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$eye$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Eye$3e$__["Eye"],
+        color: "from-aura-coral to-primary",
+        glowColor: "rgba(249, 115, 22, 0.5)",
+        position: {
+            x: -1,
+            y: -1
+        }
+    },
+    {
+        id: "brain",
+        title: "Brain",
+        subtitle: "AI Processing",
+        description: "Multi-agent debate system analyzes claims with Advocate, Skeptic & Judge",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$brain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Brain$3e$__["Brain"],
+        color: "from-primary to-aura-amber",
+        glowColor: "rgba(249, 115, 22, 0.5)",
+        position: {
+            x: 1,
+            y: -1
+        }
+    },
+    {
+        id: "knowledge",
+        title: "Knowledge Core",
+        subtitle: "Evidence Database",
+        description: "500+ trusted sources including WHO, CDC, Reuters, and fact-checkers",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$database$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Database$3e$__["Database"],
+        color: "from-aura-amber to-aura-coral",
+        glowColor: "rgba(251, 191, 36, 0.5)",
+        position: {
+            x: -1,
+            y: 1
+        }
+    },
+    {
+        id: "tongue",
+        title: "Tongue",
+        subtitle: "Response Generation",
+        description: "Generates verdicts, explanations, and counter-narratives in 200+ languages",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageCircle$3e$__["MessageCircle"],
+        color: "from-aura-coral to-primary",
+        glowColor: "rgba(249, 115, 22, 0.5)",
+        position: {
+            x: 1,
+            y: 1
+        }
+    }
+];
+// Animated arrow SVG component
+function AnimatedArrow({ startX, startY, endX, endY, delay, color }) {
+    // Calculate control point for curved line
+    const midX = (startX + endX) / 2;
+    const midY = (startY + endY) / 2;
+    // Add curve based on direction
+    const curveOffset = 30;
+    const path = `M ${startX} ${startY} Q ${midX} ${midY - curveOffset} ${endX} ${endY}`;
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].g, {
+        initial: {
+            opacity: 0
+        },
+        animate: {
+            opacity: 1
+        },
+        transition: {
+            duration: 0.8,
+            delay
+        },
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].path, {
+                d: path,
+                fill: "none",
+                stroke: color,
+                strokeWidth: "4",
+                strokeLinecap: "round",
+                filter: "url(#glow)",
+                initial: {
+                    pathLength: 0
+                },
+                animate: {
+                    pathLength: 1
+                },
+                transition: {
+                    duration: 1.2,
+                    delay,
+                    ease: "easeInOut"
+                }
+            }, void 0, false, {
+                fileName: "[project]/components/landing/backend-modules-section.tsx",
+                lineNumber: 191,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].path, {
+                d: path,
+                fill: "none",
+                stroke: color,
+                strokeWidth: "2",
+                strokeLinecap: "round",
+                initial: {
+                    pathLength: 0
+                },
+                animate: {
+                    pathLength: 1
+                },
+                transition: {
+                    duration: 1.2,
+                    delay,
+                    ease: "easeInOut"
+                }
+            }, void 0, false, {
+                fileName: "[project]/components/landing/backend-modules-section.tsx",
+                lineNumber: 203,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].circle, {
+                r: "4",
+                fill: color,
+                filter: "url(#glow)",
+                initial: {
+                    offsetDistance: "0%"
+                },
+                animate: {
+                    offsetDistance: "100%"
+                },
+                transition: {
+                    duration: 2,
+                    delay: delay + 0.5,
+                    repeat: Infinity,
+                    ease: "linear"
+                },
+                style: {
+                    offsetPath: `path('${path}')`
+                }
+            }, void 0, false, {
+                fileName: "[project]/components/landing/backend-modules-section.tsx",
+                lineNumber: 214,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/components/landing/backend-modules-section.tsx",
+        lineNumber: 185,
+        columnNumber: 9
+    }, this);
+}
+_c1 = AnimatedArrow;
+function BackendModulesSection() {
+    _s1();
+    const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const isInView = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$use$2d$in$2d$view$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"])(ref, {
+        once: true,
+        margin: "-100px"
+    });
+    const [dimensions, setDimensions] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
+        width: 800,
+        height: 600
+    });
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "BackendModulesSection.useEffect": ()=>{
+            const updateDimensions = {
+                "BackendModulesSection.useEffect.updateDimensions": ()=>{
+                    if (ref.current) {
+                        const rect = ref.current.getBoundingClientRect();
+                        setDimensions({
+                            width: rect.width,
+                            height: Math.min(rect.height, 700)
+                        });
+                    }
+                }
+            }["BackendModulesSection.useEffect.updateDimensions"];
+            updateDimensions();
+            window.addEventListener("resize", updateDimensions);
+            return ({
+                "BackendModulesSection.useEffect": ()=>window.removeEventListener("resize", updateDimensions)
+            })["BackendModulesSection.useEffect"];
+        }
+    }["BackendModulesSection.useEffect"], []);
+    // Calculate arrow positions
+    const centerX = dimensions.width / 2;
+    const centerY = dimensions.height / 2;
+    const moduleRadius = Math.min(dimensions.width, dimensions.height) * 0.35;
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        ref: ref,
+        className: "py-24 relative overflow-hidden min-h-[800px] bg-background",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TangleParticleBackground, {}, void 0, false, {
+                fileName: "[project]/components/landing/backend-modules-section.tsx",
+                lineNumber: 257,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 bg-gradient-to-b from-background via-background/90 to-background"
+            }, void 0, false, {
+                fileName: "[project]/components/landing/backend-modules-section.tsx",
+                lineNumber: 260,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "container mx-auto px-4 relative",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "text-center mb-16",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                            initial: {
+                                opacity: 0,
+                                y: 20
+                            },
+                            animate: isInView ? {
+                                opacity: 1,
+                                y: 0
+                            } : {},
+                            transition: {
+                                duration: 0.6
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-sm font-medium text-primary mb-4",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$cpu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Cpu$3e$__["Cpu"], {
+                                            className: "h-4 w-4"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                            lineNumber: 271,
+                                            columnNumber: 29
+                                        }, this),
+                                        "BACKEND ARCHITECTURE"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                    lineNumber: 270,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "font-display text-3xl md:text-5xl font-bold mb-4",
+                                    children: [
+                                        "The ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "text-gradient",
+                                            children: "Four Pillars"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                            lineNumber: 275,
+                                            columnNumber: 33
+                                        }, this),
+                                        " of AURA"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                    lineNumber: 274,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-lg text-muted-foreground max-w-2xl mx-auto",
+                                    children: "Our autonomous AI backend processes millions of claims through four specialized modules"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                    lineNumber: 277,
+                                    columnNumber: 25
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/landing/backend-modules-section.tsx",
+                            lineNumber: 265,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/landing/backend-modules-section.tsx",
+                        lineNumber: 264,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "relative h-[600px] max-w-4xl mx-auto",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                className: "absolute inset-0 w-full h-full pointer-events-none",
+                                viewBox: `0 0 ${dimensions.width} ${dimensions.height}`,
+                                preserveAspectRatio: "xMidYMid meet",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("filter", {
+                                                id: "glow",
+                                                x: "-50%",
+                                                y: "-50%",
+                                                width: "200%",
+                                                height: "200%",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("feGaussianBlur", {
+                                                        stdDeviation: "3",
+                                                        result: "coloredBlur"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                                        lineNumber: 293,
+                                                        columnNumber: 33
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("feMerge", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("feMergeNode", {
+                                                                in: "coloredBlur"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                                                lineNumber: 295,
+                                                                columnNumber: 37
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("feMergeNode", {
+                                                                in: "SourceGraphic"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                                                lineNumber: 296,
+                                                                columnNumber: 37
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                                        lineNumber: 294,
+                                                        columnNumber: 33
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                                lineNumber: 292,
+                                                columnNumber: 29
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("linearGradient", {
+                                                id: "arrowGradient1",
+                                                x1: "0%",
+                                                y1: "0%",
+                                                x2: "100%",
+                                                y2: "100%",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
+                                                        offset: "0%",
+                                                        stopColor: "#f97316"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                                        lineNumber: 300,
+                                                        columnNumber: 33
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
+                                                        offset: "100%",
+                                                        stopColor: "#fb923c"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                                        lineNumber: 301,
+                                                        columnNumber: 33
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                                lineNumber: 299,
+                                                columnNumber: 29
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                        lineNumber: 291,
+                                        columnNumber: 25
+                                    }, this),
+                                    isInView && modules.map((module, index)=>{
+                                        const endX = centerX + module.position.x * moduleRadius;
+                                        const endY = centerY + module.position.y * moduleRadius * 0.8;
+                                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(AnimatedArrow, {
+                                            startX: centerX,
+                                            startY: centerY,
+                                            endX: endX,
+                                            endY: endY,
+                                            delay: index * 0.2,
+                                            color: "#f97316"
+                                        }, module.id, false, {
+                                            fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                            lineNumber: 309,
+                                            columnNumber: 33
+                                        }, this);
+                                    })
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                lineNumber: 286,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                className: "absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10",
+                                initial: {
+                                    scale: 0,
+                                    opacity: 0
+                                },
+                                animate: isInView ? {
+                                    scale: 1,
+                                    opacity: 1
+                                } : {},
+                                transition: {
+                                    duration: 0.6,
+                                    type: "spring"
+                                },
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "relative",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "absolute inset-0 rounded-full bg-primary/20 animate-ping",
+                                            style: {
+                                                animationDuration: "2s"
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                            lineNumber: 331,
+                                            columnNumber: 29
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "absolute inset-[-10px] rounded-full bg-primary/10 animate-ping",
+                                            style: {
+                                                animationDuration: "2.5s",
+                                                animationDelay: "0.5s"
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                            lineNumber: 332,
+                                            columnNumber: 29
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "relative w-20 h-20 md:w-24 md:h-24 rounded-full bg-gradient-to-br from-primary to-aura-coral flex items-center justify-center shadow-2xl",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "absolute inset-0 rounded-full bg-gradient-to-br from-primary to-aura-coral opacity-50 blur-xl"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                                    lineNumber: 336,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$cpu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Cpu$3e$__["Cpu"], {
+                                                    className: "h-10 w-10 md:h-12 md:w-12 text-white relative z-10"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                                    lineNumber: 337,
+                                                    columnNumber: 33
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                            lineNumber: 335,
+                                            columnNumber: 29
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                    lineNumber: 329,
+                                    columnNumber: 25
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                lineNumber: 323,
+                                columnNumber: 21
+                            }, this),
+                            modules.map((module, index)=>{
+                                const xOffset = module.position.x === -1 ? "left-0 md:left-4" : "right-0 md:right-4";
+                                const yOffset = module.position.y === -1 ? "top-0 md:top-8" : "bottom-0 md:bottom-8";
+                                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    className: `absolute ${xOffset} ${yOffset} w-[calc(50%-60px)] md:w-[280px]`,
+                                    initial: {
+                                        opacity: 0,
+                                        scale: 0.8,
+                                        y: module.position.y * 30
+                                    },
+                                    animate: isInView ? {
+                                        opacity: 1,
+                                        scale: 1,
+                                        y: 0
+                                    } : {},
+                                    transition: {
+                                        duration: 0.6,
+                                        delay: 0.3 + index * 0.15
+                                    },
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "group p-6 rounded-2xl bg-card/80 backdrop-blur-sm border border-border hover:border-primary/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: `w-14 h-14 rounded-xl bg-gradient-to-br ${module.color} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform shadow-lg`,
+                                                style: {
+                                                    boxShadow: `0 0 30px ${module.glowColor}`
+                                                },
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(module.icon, {
+                                                    className: "h-7 w-7 text-white"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                                    lineNumber: 361,
+                                                    columnNumber: 41
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                                lineNumber: 357,
+                                                columnNumber: 37
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                className: "font-display text-xl font-bold mb-1",
+                                                children: module.title
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                                lineNumber: 365,
+                                                columnNumber: 37
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-sm text-primary font-medium mb-2",
+                                                children: module.subtitle
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                                lineNumber: 366,
+                                                columnNumber: 37
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-sm text-muted-foreground",
+                                                children: module.description
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                                lineNumber: 367,
+                                                columnNumber: 37
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                        lineNumber: 355,
+                                        columnNumber: 33
+                                    }, this)
+                                }, module.id, false, {
+                                    fileName: "[project]/components/landing/backend-modules-section.tsx",
+                                    lineNumber: 348,
+                                    columnNumber: 29
+                                }, this);
+                            })
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/landing/backend-modules-section.tsx",
+                        lineNumber: 284,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/landing/backend-modules-section.tsx",
+                lineNumber: 262,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/components/landing/backend-modules-section.tsx",
+        lineNumber: 255,
+        columnNumber: 9
+    }, this);
+}
+_s1(BackendModulesSection, "LGaLdgvUGuc3QHAcXHm87bosf+8=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$use$2d$in$2d$view$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"]
+    ];
+});
+_c2 = BackendModulesSection;
+var _c, _c1, _c2;
+__turbopack_context__.k.register(_c, "TangleParticleBackground");
+__turbopack_context__.k.register(_c1, "AnimatedArrow");
+__turbopack_context__.k.register(_c2, "BackendModulesSection");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
@@ -2765,15 +3446,15 @@ const features = [
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$globe$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Globe$3e$__["Globe"],
         title: "Global Trends",
         description: "Track misinformation hotspots worldwide with real-time visualization of emerging narratives.",
-        color: "text-accent",
-        bgColor: "bg-accent/10"
+        color: "text-aura-coral",
+        bgColor: "bg-aura-coral-muted"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2d$2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building2$3e$__["Building2"],
         title: "Government Portal",
         description: "Official response system for authorities to issue clarifications and counter false narratives.",
-        color: "text-aura-emerald",
-        bgColor: "bg-aura-emerald-muted"
+        color: "text-primary",
+        bgColor: "bg-primary/10"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$database$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Database$3e$__["Database"],
@@ -2786,8 +3467,8 @@ const features = [
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"],
         title: "WhatsApp Bot",
         description: "Forward suspicious messages to our bot and get instant verification in your language.",
-        color: "text-aura-emerald",
-        bgColor: "bg-aura-emerald-muted"
+        color: "text-aura-coral",
+        bgColor: "bg-aura-coral-muted"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chart$2d$column$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BarChart3$3e$__["BarChart3"],
@@ -3004,7 +3685,7 @@ const steps = [
         title: "AI Agents Analyze",
         description: "Multi-agent debate system with Advocate, Skeptic, and Judge evaluates evidence",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$brain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Brain$3e$__["Brain"],
-        color: "from-accent to-accent/50"
+        color: "from-aura-coral to-aura-coral/50"
     },
     {
         number: "03",
@@ -3018,7 +3699,7 @@ const steps = [
         title: "Verdict Delivered",
         description: "Get verdict with confidence score, sources, and AI-generated explanation",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__["CheckCircle"],
-        color: "from-aura-emerald to-aura-emerald/50"
+        color: "from-primary to-primary/50"
     }
 ];
 function HowItWorksSection() {
@@ -3088,7 +3769,7 @@ function HowItWorksSection() {
                         className: "relative max-w-4xl mx-auto",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "absolute left-8 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-primary via-accent to-aura-emerald hidden md:block"
+                                className: "absolute left-8 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-primary via-aura-coral to-aura-amber hidden md:block"
                             }, void 0, false, {
                                 fileName: "[project]/components/landing/how-it-works-section.tsx",
                                 lineNumber: 63,
@@ -3351,14 +4032,14 @@ function LiveStatsSection() {
                                         className: "relative flex h-3 w-3",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "animate-ping absolute inline-flex h-full w-full rounded-full bg-aura-emerald opacity-75"
+                                                className: "animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/landing/live-stats-section.tsx",
                                                 lineNumber: 78,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "relative inline-flex rounded-full h-3 w-3 bg-aura-emerald"
+                                                className: "relative inline-flex rounded-full h-3 w-3 bg-primary"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/landing/live-stats-section.tsx",
                                                 lineNumber: 79,
@@ -3371,7 +4052,7 @@ function LiveStatsSection() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-sm font-medium text-aura-emerald",
+                                        className: "text-sm font-medium text-primary",
                                         children: "Live"
                                     }, void 0, false, {
                                         fileName: "[project]/components/landing/live-stats-section.tsx",
@@ -3822,7 +4503,7 @@ function CTASection() {
         className: "py-24 bg-card relative overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-accent/10"
+                className: "absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-aura-amber/10"
             }, void 0, false, {
                 fileName: "[project]/components/landing/cta-section.tsx",
                 lineNumber: 16,
@@ -3867,7 +4548,7 @@ function CTASection() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-lg text-muted-foreground mb-8 max-w-xl mx-auto",
+                            className: "text-lg text-white mb-8 max-w-xl mx-auto",
                             children: "Join thousands of citizens, journalists, and institutions using AURA to verify facts and protect truth."
                         }, void 0, false, {
                             fileName: "[project]/components/landing/cta-section.tsx",
@@ -3926,7 +4607,7 @@ function CTASection() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-sm text-muted-foreground mt-6",
+                            className: "text-sm text-white/80 mt-6",
                             children: "Free for individuals. Enterprise plans available."
                         }, void 0, false, {
                             fileName: "[project]/components/landing/cta-section.tsx",
@@ -3963,6 +4644,136 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
 }),
+"[project]/components/ui/particles-background.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "ParticlesBackground",
+    ()=>ParticlesBackground
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$tsparticles$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/react-tsparticles/esm/index.js [app-client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$tsparticles$2f$browser$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/tsparticles/browser/index.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+"use client";
+;
+;
+;
+function ParticlesBackground() {
+    _s();
+    const [mounted, setMounted] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "ParticlesBackground.useEffect": ()=>{
+            setMounted(true);
+        }
+    }["ParticlesBackground.useEffect"], []);
+    const particlesInit = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"])({
+        "ParticlesBackground.useCallback[particlesInit]": async (engine)=>{
+            await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$tsparticles$2f$browser$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["loadFull"])(engine);
+        }
+    }["ParticlesBackground.useCallback[particlesInit]"], []);
+    if (!mounted) return null;
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$tsparticles$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"], {
+        id: "tsparticles",
+        init: particlesInit,
+        options: {
+            fullScreen: {
+                enable: true,
+                zIndex: 0
+            },
+            background: {
+                color: {
+                    value: "transparent"
+                }
+            },
+            fpsLimit: 60,
+            interactivity: {
+                events: {
+                    onHover: {
+                        enable: true,
+                        mode: "grab"
+                    },
+                    onClick: {
+                        enable: true,
+                        mode: "push"
+                    },
+                    resize: true
+                },
+                modes: {
+                    grab: {
+                        distance: 200,
+                        links: {
+                            opacity: 1,
+                            color: "#f97316"
+                        }
+                    },
+                    push: {
+                        quantity: 4
+                    }
+                }
+            },
+            particles: {
+                color: {
+                    value: "#ffffff"
+                },
+                links: {
+                    color: "#f97316",
+                    distance: 150,
+                    enable: true,
+                    opacity: 0.4,
+                    width: 1
+                },
+                collisions: {
+                    enable: false
+                },
+                move: {
+                    direction: "none",
+                    enable: true,
+                    outModes: {
+                        default: "bounce"
+                    },
+                    random: false,
+                    speed: 1.5,
+                    straight: false
+                },
+                number: {
+                    density: {
+                        enable: true,
+                        area: 800
+                    },
+                    value: 100
+                },
+                opacity: {
+                    value: 0.6
+                },
+                shape: {
+                    type: "circle"
+                },
+                size: {
+                    value: {
+                        min: 1,
+                        max: 4
+                    }
+                }
+            },
+            detectRetina: true
+        }
+    }, void 0, false, {
+        fileName: "[project]/components/ui/particles-background.tsx",
+        lineNumber: 22,
+        columnNumber: 9
+    }, this);
+}
+_s(ParticlesBackground, "hLVFe4nNKRdElx2e9STaFJ5hIQI=");
+_c = ParticlesBackground;
+var _c;
+__turbopack_context__.k.register(_c, "ParticlesBackground");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
 ]);
 
-//# sourceMappingURL=_3b2ea555._.js.map
+//# sourceMappingURL=_b8dd4eb4._.js.map

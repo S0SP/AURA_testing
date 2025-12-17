@@ -154,8 +154,13 @@ export function HeroSection() {
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                <span className="text-gradient">{displayText}</span>
-                <span className="animate-pulse">|</span>
+                <span className="block" style={{ color: '#ff7a6b' }}>
+                  {displayText.substring(0, 24)}
+                </span>
+                <span className="block text-[#ff7a6b] dark:text-white">
+                  {displayText.substring(24)}
+                  {displayText.length === fullText.length && <span className="animate-pulse">|</span>}
+                </span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-xl leading-relaxed">
                 AURA uses autonomous AI agents to detect, verify, and counter misinformation within minutes — protecting

@@ -294,6 +294,7 @@
 @layer theme {
   :root, :host {
     --color-red-500: #fb2c36;
+    --color-orange-500: #fe6e00;
     --color-amber-500: #f99c00;
     --color-gray-500: #6a7282;
     --color-black: #000;
@@ -351,6 +352,7 @@
   @supports (color: lab(0% 0 0)) {
     :root, :host {
       --color-red-500: lab(55.4814% 75.0732 48.8528);
+      --color-orange-500: lab(64.272% 57.1788 90.3583);
       --color-amber-500: lab(72.7183% 31.8672 97.9407);
       --color-gray-500: lab(47.7841% -.393212 -10.0268);
     }
@@ -2281,10 +2283,6 @@
     padding-inline: calc(var(--spacing) * 0);
   }
 
-  .px-1\.5 {
-    padding-inline: calc(var(--spacing) * 1.5);
-  }
-
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
   }
@@ -2454,10 +2452,6 @@
     line-height: var(--tw-leading, var(--text-xs--line-height));
   }
 
-  .text-\[10px\] {
-    font-size: 10px;
-  }
-
   .leading-none {
     --tw-leading: 1;
     line-height: 1;
@@ -2500,6 +2494,10 @@
 
   .whitespace-nowrap {
     white-space: nowrap;
+  }
+
+  .text-\[\#ff7a6b\] {
+    color: #ff7a6b;
   }
 
   .text-accent {
@@ -2546,6 +2544,10 @@
     .text-muted-foreground\/30 {
       color: color-mix(in oklab, var(--muted-foreground) 30%, transparent);
     }
+  }
+
+  .text-orange-500 {
+    color: var(--color-orange-500);
   }
 
   .text-popover-foreground {
@@ -3831,6 +3833,10 @@
 
   .dark\:text-muted-foreground:is(.dark *) {
     color: var(--muted-foreground);
+  }
+
+  .dark\:text-white:is(.dark *) {
+    color: var(--color-white);
   }
 
   @media (hover: hover) {
